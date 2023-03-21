@@ -1,0 +1,5 @@
+<div>
+  <div *ngIf="showInvalidError()" class="text-red">Mot de passe invalide.</div>
+  <div *ngIf="showConnectionError()" class="text-red">Problème de connexion.</div>
+  <app-login-form (login)="onLogin($event)"></app-login-form>
+</div>

@@ -1,0 +1,13 @@
+.messages {
+    height: 70vh;
+    overflow-y: scroll;
+    text-align: left;
+    padding: 30px;
+  }
+  p {
+    margin: 10px;
+  }
+  img {
+      width: 100%;
+      height: auto;
+  }
